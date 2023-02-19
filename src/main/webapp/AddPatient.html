@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Patient</title>
+<link rel="Stylesheet" type="text/css" href="css/AddPatient.css">
+
+</head>
+<body style="background-image: url('https://st.depositphotos.com/1194063/2216/i/450/depositphotos_22163791-stock-photo-medical-exam.jpg'); background-size: cover;">
+<h1> Add Patient </h1>
+<form action="PatientController" method="post">
+
+
+<lable><h3>Enter name:   </lable><input type="text" name="name" placeholder="Enter name" id="na"> </h3>
+<lable><h3>Enter gender: </lable><select name="gender">  <option value="Male">Male</option> <option value="Female">Female</option> </select> </h3>
+<lable><h3>Contact No:   </lable> <input type="phone" name="phone" placeholder="Enter phone" id="na"></h3>
+<label><h3>Enter age:    </label><input type="number" name="age" placeholder="Enter age" id="na"></h3>
+<lable><h3>Appointment date:    </lable><input type="datetime-local" name="tr" id="na" ></h3>
+<lable><h3>Report: </lable><input type="text" name="report" placeholder="report" id="na" ></h3>
+
+<h2><input type="Submit" value="Add Patient" id="btn"></h2>
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+
+
+#na{
+	
+    border-bottom: 1px solid;
+    border-color: black;
+    border-radius: 5px;
+    font-size: large;
+    height: 25px;
+}
+
+body{
+   
+	text-align:center;
+	background-image:url("https://thumbs.dreamstime.com/b/healthcare-technology-doctor-using-digital-tablet-icon-medical-network-hospital-background-162019727.jpg");
+	background-size: 100%;
+}
+
+#btn{
+	 border-radius:5px;
+	font-size:large;
+	width:10%;
+	
+}
+input#btn:hover{
+	background-color: #4c9ed9;
+      color: black;
+     
+      border: 1px solid #111;
+}

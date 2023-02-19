@@ -1,0 +1,20 @@
+@charset "ISO-8859-1";
+
+ table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color:pink;
+   border:1px solid;
+   
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border:1px solid;
+}
+
+tr:hover {
+	background-color: grey;
+	}

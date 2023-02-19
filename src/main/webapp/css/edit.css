@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+
+body{
+	margin-left:38%;
+	margin-top: 100px;
+	background-image: url("https://img.freepik.com/premium-photo/young-energetic-female-tech-scientist-works-laboratory_87646-4702.jpg");
+	background-size: cover;
+}
+	table {
+	text-align:center;
+    border-collapse: collapse;
+    width: 50%;
+    border:solid 1px;
+    height:300px;
+    width:300px;
+    background-color:white;
+    
+    
+}
+tr,td{
+	padding: 8px;
+    text-align: left;
+	
+}
+#na{
+	
+    border-bottom: 1px solid;
+    border-color: black;
+    border-radius: 5px;
+    font-size: medium;
+    height: 30px;
+}
+
+#btn{
+	
+	border-radius:5px;
+	font-size:large;
+	width:80;
+	
+}
+
+ #btn:hover{
+   	background-color:pink;
+    color: black;
+}
